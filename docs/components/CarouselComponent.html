@@ -1,0 +1,1056 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng2-custom-slider</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ng2-custom-slider</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">ng2-custom-slider</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <span class="fa fa-archive"></span>
+                            <span>Modules</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            ></span>
+                        </a>
+                        <ul class="links collapse in"
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/SampleModule.html" >SampleModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-components-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/CarouselComponent.html"  data-type="entity-link" class="active" >CarouselComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">ng2-custom-slider</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <span class="fa fa-archive"></span>
+                                   <span>Modules</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   ></span>
+                               </a>
+                               <ul class="links collapse in"
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/SampleModule.html" >SampleModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#components-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/CarouselComponent.html"  data-type="entity-link" class="active" >CarouselComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CarouselComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#infos" id="infos-tab" role="tab" data-toggle="tab" data-link="infos">Infos</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="infos"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/carousel.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/docs/ts/latest/api/core/index/OnInit-interface.html" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/docs/ts/latest/api/core/index/AfterViewInit-interface.html" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+            <tr>
+                <td class="col-md-3">encapsulation</td>
+                <td class="col-md-9"><code>ViewEncapsulation.None</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-carousel</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>carousel.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./carousel.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>compoArr</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>any</code>
+
+                              </p>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/carousel.component.ts:19</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>configOpt</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>any</code>
+
+                              </p>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/carousel.component.ts:20</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(ele: <a href="https://angular.io/docs/ts/latest/api/core/index/ElementRef-class.html" target="_blank">ElementRef</a>)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/carousel.component.ts:24</a></div>
+                            </td>
+                        </tr>
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> onResize</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>onResize(event: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/carousel.component.ts:37</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> ngAfterViewInit</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngAfterViewInit()</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/carousel.component.ts:41</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> ngOnInit</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnInit()</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/carousel.component.ts:44</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> carousel</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon method fa fa-play lock">
+                                    <span class="fa fa-lock"></span>
+                                </span>
+                            <code>carousel(slides: any[], inputOpt: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/carousel.component.ts:51</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Carousel</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> navigateSlides</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>navigateSlides(slideDirection: any, sliderEle: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">src/carousel.component.ts:102</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> gotoSlideNo</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>gotoSlideNo(slideNo: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="119" class="link-to-prism">src/carousel.component.ts:119</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> initPos</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>initPos(carouselEle: any, pos: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="142" class="link-to-prism">src/carousel.component.ts:142</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> content</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>content:     <code><a href="https://angular.io/docs/ts/latest/api/core/index/ElementRef-class.html" target="_blank" >ElementRef</a></code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/carousel.component.ts:23</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> currentSlide</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>currentSlide:     <code>number</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>0</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/carousel.component.ts:12</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> nextBtnArow</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>nextBtnArow:     <code>boolean</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>false</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/carousel.component.ts:17</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> no_of_slides</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>no_of_slides:     <code>number</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/carousel.component.ts:10</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> options</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>options:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/carousel.component.ts:13</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> prevBtnArow</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>prevBtnArow:     <code>boolean</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>true</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/carousel.component.ts:16</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> slide_data</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>slide_data:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/carousel.component.ts:15</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> slide_width</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>slide_width:     <code>number</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/carousel.component.ts:11</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> slider</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>slider:     <code><a href="https://angular.io/docs/ts/latest/api/core/index/ElementRef-class.html" target="_blank" >ElementRef</a></code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/carousel.component.ts:22</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> sliderType</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>sliderType:     <code>string</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>flat</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/carousel.component.ts:14</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> slides</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>slides:     <code><a href="https://angular.io/docs/ts/latest/api/core/index/ElementRef-class.html" target="_blank" >ElementRef</a></code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/carousel.component.ts:24</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="source">
+        <pre class="line-numbers"><code class="language-typescript">import { Input,Component, OnInit, ElementRef, ViewChild, AfterViewInit,HostListener,ViewEncapsulation } from &#x27;@angular/core&#x27;;
+
+@Component({
+  selector: &#x27;app-carousel&#x27;,
+  templateUrl: &#x27;./carousel.component.html&#x27;,
+  styleUrls: [&#x27;./carousel.component.scss&#x27;],
+  encapsulation: ViewEncapsulation.None
+})
+export class CarouselComponent implements OnInit, AfterViewInit {
+  private no_of_slides: number;
+  private slide_width:number;
+  private currentSlide &#x3D; 0;
+  private options;
+  private sliderType:string &#x3D; &#x27;flat&#x27;;
+  private slide_data: any;
+  private prevBtnArow &#x3D; true;
+  private nextBtnArow &#x3D; false;
+
+  @Input() compoArr: any;
+  @Input() configOpt:any;
+  
+  @ViewChild(&#x27;slider&#x27;) slider: ElementRef;
+  @ViewChild(&#x27;content&#x27;) content: ElementRef;
+  @ViewChild(&#x27;slides&#x27;) slides: ElementRef;
+
+  constructor(private ele: ElementRef) {
+   this.options &#x3D; {
+      slides_per_view: 3, // No. Of slides visible on the screen
+      animation_type: &#x27;flat&#x27;, // Animation type ar: flat or circular
+      slide_navigation: true, // Next previous arrows
+      slide_pagination: true, // Slide pagination
+      padding: 40
+    }
+  }
+
+  @HostListener(&#x27;window:resize&#x27;, [&#x27;$event&#x27;])
+  onResize(event) {
+    this.carousel(this.compoArr,this.configOpt)
+  }
+
+  ngAfterViewInit() {
+    this.carousel(this.compoArr,this.configOpt)
+  }
+  ngOnInit() {
+    this.slide_data &#x3D; this.compoArr;
+  }
+
+  /**
+   * Carousel
+   */
+  private carousel(slides: Array&lt;any&gt;, inputOpt?: any) {
+    let parentObj &#x3D; this;
+    console.log(&quot;current slide: &quot;+this.currentSlide);
+    this.options &#x3D; Object.assign(this.options,inputOpt);
+    //console.log(this.options);
+    this.no_of_slides &#x3D; slides.length;
+    
+    
+    let contentwidth &#x3D; this.slider.nativeElement.clientWidth - (this.options.padding*2);
+    //console.log(contentwidth)
+    this.content.nativeElement.style.width &#x3D; contentwidth + &#x27;px&#x27;;
+    this.slide_width &#x3D; contentwidth / this.options.slides_per_view;
+    console.log(this.slides)
+    for(let i&#x3D;0;i&lt;this.no_of_slides;i++){
+      this.slides.nativeElement.children[i].style.width &#x3D; this.slide_width+&quot;px&quot;;
+    }
+   // this.slider.nativeElement.style.paddingLeft &#x3D; this.options.padding+&quot;px&quot;;
+   // this.slider.nativeElement.style.paddingRight &#x3D; this.options.padding+&quot;px&quot;;
+    this.slides.nativeElement.style.width &#x3D; (this.slide_width * this.no_of_slides) + &#x27;px&#x27;;
+    // setTimeout(function(){
+    //   parentObj.
+    // },200)
+    //set initial position
+    if(this.currentSlide&#x3D;&#x3D;0)
+    this.gotoSlideNo(0)
+    else
+    this.gotoSlideNo(this.currentSlide)
+    //this.sliderType &#x3D; this.options.animation_type;
+    console.log(this.sliderType);
+    if(this.currentSlide&#x3D;&#x3D;0){
+      switch(this.options.animation_type){
+        case &#x27;flat&#x27;:
+          //set initial position
+
+          this.initPos(this.slides,this.currentSlide);
+          break;
+        case &#x27;circular&#x27;:
+          //set initial position
+          setTimeout(function(){
+            parentObj.sliderType &#x3D; &#x27;circular&#x27;;
+          },1)
+          let gapCalc &#x3D; (this.options.slides_per_view % 2&#x3D;&#x3D;0)? ((this.options.slides_per_view/2)-.5):(this.options.slides_per_view % 2)
+          console.log(&quot;gap : &quot;+gapCalc)
+          let initialPos &#x3D; this.slide_width*gapCalc;
+          console.log(this.sliderType);
+          this.initPos(this.slides,initialPos);
+          break;
+      }
+    }
+    
+  }
+  navigateSlides(slideDirection,sliderEle?){
+    console.log(slideDirection)
+    console.log(this.currentSlide)
+    switch(slideDirection){
+      case &#x27;next&#x27;:
+        //set initial position
+        let tempSlideNoNext &#x3D; (this.currentSlide&lt;(this.no_of_slides-1))? (this.currentSlide+1):this.currentSlide;
+        console.log(tempSlideNoNext)
+        this.gotoSlideNo(tempSlideNoNext)
+        break;
+      case &#x27;prev&#x27;:
+      //set initial position
+      let tempSlideNoPrev &#x3D; (this.currentSlide&gt;0)? (this.currentSlide-1):this.currentSlide;
+        this.gotoSlideNo(tempSlideNoPrev)
+      break;
+    }
+  }
+  gotoSlideNo(slideNo){
+    // sliderEle &#x3D; sliderEle.elementRef;
+    let pos &#x3D; -(this.slide_width * slideNo)
+    this.currentSlide &#x3D; slideNo;
+    this.prevBtnArow &#x3D; (this.currentSlide &gt; 0)? false : true ;
+    this.nextBtnArow &#x3D; (this.currentSlide &lt; (this.no_of_slides-1))? false : true ;
+    switch(this.options.animation_type){
+      case &#x27;flat&#x27;:
+        //set initial position
+        this.slides.nativeElement.style.transform &#x3D; &quot;translateX(&quot;+pos+&quot;px)&quot;;
+        break;
+      case &#x27;circular&#x27;:
+        //set initial position
+        let gapCalc &#x3D; (this.options.slides_per_view % 2&#x3D;&#x3D;0)? ((this.options.slides_per_view/2)-.5):(this.options.slides_per_view % 2)
+        console.log(&quot;gap : &quot;+gapCalc)
+        let initialPos &#x3D; this.slide_width*gapCalc;
+        pos &#x3D; pos+initialPos;
+        this.slides.nativeElement.style.transform &#x3D; &quot;translateX(&quot;+pos+&quot;px)&quot;;
+        break;
+    }
+    
+  }
+
+  initPos(carouselEle?,pos?){
+    carouselEle.nativeElement.style.transform &#x3D; &quot;translateX(&quot;+pos+&quot;px)&quot;;
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div [ngClass]&#x3D;&quot;{&#x27;cstm-slider&#x27;:true,&#x27;slider-3d&#x27;:sliderType&#x3D;&#x3D;&#x27;circular&#x27;}&quot; #slider&gt;
+    &lt;!--width--&gt;
+    &lt;div class&#x3D;&quot;slider-content&quot; #content&gt;
+        &lt;ul class&#x3D;&quot;slides&quot; #slides&gt;
+            &lt;li *ngFor&#x3D;&quot;let item of slide_data; let i &#x3D; index&quot; [innerHTML]&#x3D;&quot;item&quot; [ngClass]&#x3D;&quot;{&#x27;slide-item&#x27;:true,&#x27;slide-active&#x27;:(currentSlide&#x3D;&#x3D;i)}&quot;&gt;{{item}}&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;ng-container&gt;
+        &lt;a [ngClass]&#x3D;&quot;{&#x27;slider-nav&#x27;:true,&#x27;next-nav&#x27;:true,&#x27;nav-disable&#x27;:nextBtnArow}&quot; (click)&#x3D;&quot;navigateSlides(&#x27;next&#x27;,slides)&quot;&gt;&lt;i class&#x3D;&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a [ngClass]&#x3D;&quot;{&#x27;slider-nav&#x27;:true,&#x27;prev-nav&#x27;:true,&#x27;nav-disable&#x27;:prevBtnArow}&quot; (click)&#x3D;&quot;navigateSlides(&#x27;prev&#x27;,slides)&quot;&gt;&lt;i class&#x3D;&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/ng-container&gt;
+    &lt;div class&#x3D;&quot;slider-pagination&quot;&gt;
+        &lt;ul class&#x3D;&quot;pagi-wrap&quot;&gt;
+            &lt;li class&#x3D;&quot;pagi-item&quot; *ngFor&#x3D;&quot;let item of slide_data; let i &#x3D; index&quot;&gt;&lt;a [ngClass]&#x3D;&quot;{&#x27;pagi-item-nav&#x27;:true,&#x27;pagi-active&#x27;:(currentSlide&#x3D;&#x3D;i)}&quot; (click)&#x3D;&quot;gotoSlideNo(i)&quot;&gt;{{i+1}}&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div [ngClass]="{\'cstm-slider\':true,\'slider-3d\':sliderType==\'circular\'}" #slider>    <!--width-->    <div class="slider-content" #content>        <ul class="slides" #slides>            <li *ngFor="let item of slide_data; let i = index" [innerHTML]="item" [ngClass]="{\'slide-item\':true,\'slide-active\':(currentSlide==i)}">{{item}}</li>        </ul>    </div>    <ng-container>        <a [ngClass]="{\'slider-nav\':true,\'next-nav\':true,\'nav-disable\':nextBtnArow}" (click)="navigateSlides(\'next\',slides)"><i class="glyphicon glyphicon-chevron-right"></i></a>        <a [ngClass]="{\'slider-nav\':true,\'prev-nav\':true,\'nav-disable\':prevBtnArow}" (click)="navigateSlides(\'prev\',slides)"><i class="glyphicon glyphicon-chevron-left"></i></a>    </ng-container>    <div class="slider-pagination">        <ul class="pagi-wrap">            <li class="pagi-item" *ngFor="let item of slide_data; let i = index"><a [ngClass]="{\'pagi-item-nav\':true,\'pagi-active\':(currentSlide==i)}" (click)="gotoSlideNo(i)">{{i+1}}</a></li>        </ul>    </div></div></div>'
+    var COMPONENTS = [{'name': 'CarouselComponent', 'selector': 'app-carousel'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CarouselComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>
