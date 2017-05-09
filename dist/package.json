@@ -1,0 +1,26 @@
+{
+    "name": "ng2-custom-slider",
+    "version": "0.1.4",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fractal-repo/ng2-custom-slider.git"
+    },
+    "author": {
+        "name": "Sanjiv Kumar Sutar",
+        "email": "sanjivsut@gmail.com"
+    },
+    "keywords": [
+        "angular2"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fractal-repo/ng2-custom-slider.git/issues"
+    },
+    "module": "ng2-custom-slider.js",
+    "typings": "ng2-custom-slider.d.ts",
+    "peerDependencies": {
+        "@angular/core": "^4.0.0",
+        "rxjs": "^5.1.0",
+        "zone.js": "^0.8.4"
+    }
+}
